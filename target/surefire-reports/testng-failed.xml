@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [All Test Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <listeners>
+    <listener class-name="FullStackAutomation.androidSetup.Listerners"/>
+  </listeners>
+  <test thread-count="5" name="C:/AppiumProject/Appium(failed)" verbose="0">
+    <groups>
+      <run>
+        <include name="Regression"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="FullStackAutomation.androidTests.E_CommerceApplication">
+        <methods>
+          <include name="configureAppium"/>
+          <include name="addItemsToCart"/>
+          <include name="tearDownAppium"/>
+        </methods>
+      </class> <!-- FullStackAutomation.androidTests.E_CommerceApplication -->
+    </classes>
+  </test> <!-- C:/AppiumProject/Appium(failed) -->
+</suite> <!-- Failed suite [All Test Suite] -->

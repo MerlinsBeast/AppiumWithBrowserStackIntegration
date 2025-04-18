@@ -1,0 +1,12 @@
+[
+  {
+    "addTextDetails": "Vijay Emulator Test",
+    "gender":"female",
+    "country": "Argentina"
+  },
+  {
+    "addTextDetails": "Just the Emulator",
+    "gender":"male",
+    "country": "India"
+  }
+]

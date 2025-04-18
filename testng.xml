@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <groups>
+        <run><include name="Regression"></include></run>
+    </groups>
+    <listeners>
+        <listener class-name="FullStackAutomation.androidSetup.Listerners"></listener>
+    </listeners>
+    <test verbose="2" preserve-order="true" name="C:/AppiumProject/Appium">
+        <classes>
+            <!--<class name="FullStackAutomation.androidTests.AppiumBasics">
+                <methods>
+                    <include name="WifiSettingTest"/>
+                    <include name="LongPressTest"/>
+                    <include name="ScrollGestureTest"/>
+                    <include name="SwipeGestureTest"/>
+                    <include name="DragAndDropGesture"/>
+                    <include name="MiscellaneousActivity"/>
+                    <include name="MiscellaneousActivity_DeviceToLandScapeMode"/>
+                    <include name="MiscellaneousActivity_MobileEventsLikeHomeKeysEtc"/>
+                    <include name="MiscellaneousActivity_LaunchAppViaActivity"/>
+                </methods>
+            </class>-->
+            <class name="FullStackAutomation.androidTests.E_CommerceApplication">
+                <methods>
+                    <include name="addDetailsOnLandingPage"/>
+                    <include name="checkToastMessageOnLandingPage"/>
+                    <include name="addItemsToCart"/>
+                </methods>
+            </class>
+           <!-- <class name="FullStackAutomation.iosTests.IOS_AppiumBasics">
+                <methods>
+                    <include name="IOSFirstBasicTest"/>
+                    <include name="IOS_LongPressGesture"/>
+                    <include name="IOS_ScrollGesture"/>
+                    <include name="IOS_PickerSelection"/>
+                    <include name="IOS_SliderGesture"/>
+                    <include name="IOS_SwipeGesture_LaunchFromActivity"/>
+                </methods>
+            </class>-->
+        </classes>
+    </test>
+</suite>

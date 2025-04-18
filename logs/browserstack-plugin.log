@@ -1,0 +1,15 @@
+16:33:04.725 [AWT-EventQueue-0] INFO  c.b.actions.EnableBrowserStack - Setting enable browserstack run update
+16:33:04.739 [AWT-EventQueue-0] INFO  c.b.actions.DisableBrowserStack - Setting disable browserstack run update
+16:33:12.493 [AWT-EventQueue-0] INFO  c.b.actions.EnableBrowserStack - Setting enable browserstack run update
+16:33:12.504 [AWT-EventQueue-0] INFO  c.b.actions.DisableBrowserStack - Setting disable browserstack run update
+16:33:56.209 [AWT-EventQueue-0] INFO  c.b.launchers.LaunchMavenCommand - Integrate source: java:appium-intellij:v1.1.6
+16:33:56.209 [AWT-EventQueue-0] INFO  c.b.launchers.LaunchMavenCommand - Executing maven archetype command - browserstack-sdk-archetype-integrate
+16:33:56.317 [ApplicationImpl pooled thread 299] INFO  c.b.l.BrowserStackRunExtension - maven
+16:33:56.317 [ApplicationImpl pooled thread 299] INFO  com.browserstack.utils.Helpers - null
+16:34:08.149 [java.exe] INFO  c.b.launchers.LaunchMavenCommand - Completed maven archetype command
+16:43:03.763 [ApplicationImpl pooled thread 341] INFO  c.b.l.BrowserStackRunExtension - testng
+16:43:03.763 [ApplicationImpl pooled thread 341] INFO  com.browserstack.utils.Helpers - true
+16:43:03.764 [ApplicationImpl pooled thread 341] INFO  com.browserstack.utils.Helpers - C:/Users/Vijay_Yadav/.m2/repository/com/browserstack/browserstack-java-sdk/1.32.2/browserstack-java-sdk-1.32.2.jar
+16:43:03.764 [ApplicationImpl pooled thread 341] INFO  c.b.l.BrowserStackRunExtension - Agent path: C:/Users/Vijay_Yadav/.m2/repository/com/browserstack/browserstack-java-sdk/1.32.2/browserstack-java-sdk-1.32.2.jar
+16:43:03.764 [ApplicationImpl pooled thread 341] INFO  c.b.l.BrowserStackRunExtension - Adding Browserstack SDK javaagent argline
+16:43:03.764 [ApplicationImpl pooled thread 341] INFO  c.b.l.BrowserStackRunExtension - Plugin version: v1.1.6
